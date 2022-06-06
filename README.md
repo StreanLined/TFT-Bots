@@ -1,4 +1,4 @@
-# TFT-Bots
+# TFT-Bots Set 6.5
 Bots for TFT to learn
 [Python]
 
