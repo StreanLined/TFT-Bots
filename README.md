@@ -35,5 +35,9 @@ __Libraries used:__
 
 Future plans:
 - [ ] Add trait button as an alternative to cost dropdown (Variables already set up)
+- [ ] Script continues to run when bench is full [Needs an urgent fix!]
 - [ ] ~Maybe make the GUI look nicer
 - [ ] ~Maybe find an alternative GUI library (loops do not work with TkInter as it has its own constant loop)
+
+__Bugs__
+- [ ] "Esc" key doesn't register once a unit has been bought by the script
