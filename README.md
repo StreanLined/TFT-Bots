@@ -30,7 +30,4 @@ Up to 9 different units can be selected from the Cost-Dropdown boxes.
 "Esc" key to re-open GUI. __NOTE:__ Selected units will be reset.
 
 __Libraries used:__
-* *from pyautogui import *
-from tkinter import *
-from PIL import ImageTk
-import pyautogui, keyboard* *
+* *PyAutogui, TkInter, PIL, Keyboard* *
