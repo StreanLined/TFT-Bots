@@ -28,3 +28,9 @@ Working script that buys Units using * *pyautogui.locateOnScreen* *
 Up to 9 different units can be selected from the Cost-Dropdown boxes.
 "Toggle" button to activate once units have been selected.
 "Esc" key to re-open GUI. __NOTE:__ Selected units will be reset.
+
+__Libraries used:__
+* *from pyautogui import *
+from tkinter import *
+from PIL import ImageTk
+import pyautogui, keyboard* *
