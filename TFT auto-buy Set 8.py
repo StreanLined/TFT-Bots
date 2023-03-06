@@ -4,8 +4,7 @@ from PIL import ImageTk
 import pyautogui, keyboard
 
 
-
-#Store Size: (region=(472,922,1011,158))
+#Store Size: (region=(480, 928, 997, 143))
 #Store 1: (region=(480,928,192,143))
 #Store 2: (region=(681,928,192,143))
 #Store 3: (region=(882,928,192,143))
@@ -1522,63 +1521,63 @@ def toggle():
 
 def card_search():
     if Slot_1 != "-":
-        Slot_1_Var = pyautogui.locateOnScreen(Slot_1, region=(480, 928, 997, 143), grayscale=True, confidence=0.80)
+        Slot_1_Var = pyautogui.locateOnScreen(Slot_1, region=(480, 928, 997, 143), grayscale=True, confidence=0.70)
         if Slot_1_Var != None:
             Slot_1_Loc = pyautogui.center(Slot_1_Var)
             pyautogui.moveTo(Slot_1_Loc)
             pyautogui.mouseDown(); pyautogui.mouseUp()
             print("Found " + Slot_1[43:-4])
     if Slot_2 != "-":
-        Slot_2_Var = pyautogui.locateOnScreen(Slot_2, region=(480, 928, 997, 143), grayscale=True, confidence=0.80)
+        Slot_2_Var = pyautogui.locateOnScreen(Slot_2, region=(480, 928, 997, 143), grayscale=True, confidence=0.70)
         if Slot_2_Var != None:
             Slot_2_Loc = pyautogui.center(Slot_2_Var)
             pyautogui.moveTo(Slot_2_Loc)
             pyautogui.mouseDown(); pyautogui.mouseUp()
             print("Found " + Slot_2[43:-4])
     if Slot_3 != "-":
-        Slot_3_Var = pyautogui.locateOnScreen(Slot_3, region=(480, 928, 997, 143), grayscale=True, confidence=0.80)
+        Slot_3_Var = pyautogui.locateOnScreen(Slot_3, region=(480, 928, 997, 143), grayscale=True, confidence=0.70)
         if Slot_3_Var != None:
             Slot_3_Loc = pyautogui.center(Slot_3_Var)
             pyautogui.moveTo(Slot_3_Loc)
             pyautogui.mouseDown(); pyautogui.mouseUp()
             print("Found " + Slot_3[43:-4])
     if Slot_4 != "-":
-        Slot_4_Var = pyautogui.locateOnScreen(Slot_4, region=(480, 928, 997, 143), grayscale=True, confidence=0.80)
+        Slot_4_Var = pyautogui.locateOnScreen(Slot_4, region=(480, 928, 997, 143), grayscale=True, confidence=0.70)
         if Slot_4_Var != None:
             Slot_4_Loc = pyautogui.center(Slot_4_Var)
             pyautogui.moveTo(Slot_4_Loc)
             pyautogui.mouseDown(); pyautogui.mouseUp()
             print("Found " + Slot_4[43:-4])
     if Slot_5 != "-":
-        Slot_5_Var = pyautogui.locateOnScreen(Slot_5, region=(480, 928, 997, 143), grayscale=True, confidence=0.80)
+        Slot_5_Var = pyautogui.locateOnScreen(Slot_5, region=(480, 928, 997, 143), grayscale=True, confidence=0.70)
         if Slot_5_Var != None:
             Slot_5_Loc = pyautogui.center(Slot_5_Var)
             pyautogui.moveTo(Slot_5_Loc)
             pyautogui.mouseDown(); pyautogui.mouseUp()
             print("Found " + Slot_5[43:-4])
     if Slot_6 != "-":
-        Slot_6_Var = pyautogui.locateOnScreen(Slot_6, region=(480, 928, 997, 143), grayscale=True, confidence=0.80)
+        Slot_6_Var = pyautogui.locateOnScreen(Slot_6, region=(480, 928, 997, 143), grayscale=True, confidence=0.70)
         if Slot_6_Var != None:
             Slot_6_Loc = pyautogui.center(Slot_6_Var)
             pyautogui.moveTo(Slot_6_Loc)
             pyautogui.mouseDown(); pyautogui.mouseUp()
             print("Found " + Slot_6[43:-4])
     if Slot_7 != "-":
-        Slot_7_Var = pyautogui.locateOnScreen(Slot_7, region=(480, 928, 997, 143), grayscale=True, confidence=0.80)
+        Slot_7_Var = pyautogui.locateOnScreen(Slot_7, region=(480, 928, 997, 143), grayscale=True, confidence=0.70)
         if Slot_7_Var != None:
             Slot_7_Loc = pyautogui.center(Slot_7_Var)
             pyautogui.moveTo(Slot_7_Loc)
             pyautogui.mouseDown(); pyautogui.mouseUp()
             print("Found " + Slot_7[43:-4])
     if Slot_8 != "-":
-        Slot_8_Var = pyautogui.locateOnScreen(Slot_8, region=(480, 928, 997, 143), grayscale=True, confidence=0.80)
+        Slot_8_Var = pyautogui.locateOnScreen(Slot_8, region=(480, 928, 997, 143), grayscale=True, confidence=0.70)
         if Slot_8_Var != None:
             Slot_8_Loc = pyautogui.center(Slot_8_Var)
             pyautogui.moveTo(Slot_8_Loc)
             pyautogui.mouseDown(); pyautogui.mouseUp()
             print("Found " + Slot_8[43:-4])
     if Slot_9 != "-":
-        Slot_9_Var = pyautogui.locateOnScreen(Slot_9, region=(480, 928, 997, 143), grayscale=True, confidence=0.80)
+        Slot_9_Var = pyautogui.locateOnScreen(Slot_9, region=(480, 928, 997, 143), grayscale=True, confidence=0.70)
         if Slot_9_Var != None:
             Slot_9_Loc = pyautogui.center(Slot_9_Var)
             pyautogui.moveTo(Slot_9_Loc)
