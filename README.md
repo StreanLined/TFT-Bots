@@ -34,6 +34,6 @@ __Libraries used:__
 * *PyAutogui, TkInter, PIL, Keyboard*
 
 Future plans:
-Add trait button as an alternative to cost dropdown (Variables already set up)
-~ Maybe make the GUI look nicer
-~ Maybe find an alternative GUI library (loops do not work with TkInter as it has its own constant loop)
+- [ ] Add trait button as an alternative to cost dropdown (Variables already set up)
+- [ ] ~Maybe make the GUI look nicer
+- [ ] ~Maybe find an alternative GUI library (loops do not work with TkInter as it has its own constant loop)
