@@ -1,7 +1,7 @@
 from pyautogui import *
 from tkinter import *
 from PIL import ImageTk
-import pyautogui, keyboard, random, win32api, win32con, time
+import pyautogui, keyboard
 
 
 
